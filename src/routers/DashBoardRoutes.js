@@ -1,5 +1,5 @@
 import React from 'react'
-import { Redirect, Route, Router, Switch } from 'react-router-dom/cjs/react-router-dom.min'
+import { Redirect, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min'
 import { DcScreen } from '../Components/dc/DcScreen'
 import { HeroScreen } from '../Components/heroes/HeroScreen'
 import { MarvelScreen } from '../Components/marvel/MarvelScreen'

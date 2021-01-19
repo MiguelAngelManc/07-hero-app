@@ -13,7 +13,7 @@ export const SearchScreen = ({ history }) => {
     const { q = '' } = queryString.parse(location.search)
 
 
-    const [{ search }, handleInputChange, reset] = useForm({ search: q })
+    const [{ search }, handleInputChange] = useForm({ search: q })
 
     const filtered = useMemo(() => getHeroByName(q), [q])
 

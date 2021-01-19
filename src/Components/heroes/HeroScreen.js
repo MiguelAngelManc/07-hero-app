@@ -29,7 +29,7 @@ export const HeroScreen = ({history}) => {
                 />
             </div>
 
-            <dib className="col-8">
+            <div className="col-8">
                 <h3>{superhero}</h3>
                 <ul className="list-group list-group-flush">
                     <li className="list-group-item">Alter ego: {alter_ego}</li>
@@ -42,12 +42,12 @@ export const HeroScreen = ({history}) => {
 
                 <button
                     onClick={handleReturn}
-                    className="btn btn-outline"
+                    className="btn btn-outline-primary"
                     >
                     Return
                 </button>
 
-            </dib>
+            </div>
         </div>
     )
 }
