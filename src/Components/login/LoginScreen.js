@@ -51,7 +51,7 @@ export const LoginScreen = ( {history} ) => {
                 placeholder="Username"
             />
             <button 
-                classname="btn btn-primary btn-box"
+                className="btn btn-primary btn-box"
                 onClick={()=>{handleLogin()}}>
                     Login!
             </button>

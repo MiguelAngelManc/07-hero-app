@@ -16,7 +16,10 @@ export const HeroScreen = ({history}) => {
     const {superhero, alter_ego, characters, first_appearance, publisher} = heroe
 
     const handleReturn = (e) =>{
-        history.goBack();
+        if(history.length<=2)
+            history.push('/')
+        else
+            history.goBack();
     }
 
     return (

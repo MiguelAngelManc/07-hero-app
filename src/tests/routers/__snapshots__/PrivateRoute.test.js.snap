@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en PrivateRoute Muestra el compoentne si esta autenticado y guarda en localsotrage 1`] = `
+<span>
+  hola
+</span>
+`;
