@@ -14,6 +14,8 @@ export const HeroesApp = () => {
 
     useEffect(() => {
             localStorage.setItem('user', JSON.stringify(user))
+            if(user.name) 
+                localStorage.setItem('lastname',user.name)
         }
     , [user])
 
