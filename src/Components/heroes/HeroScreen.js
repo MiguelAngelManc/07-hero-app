@@ -26,7 +26,7 @@ export const HeroScreen = ({history}) => {
         <div className="row mt-5">
             <div className="col-4">
                 <img
-                    src={`../assets/heroes/${heroeId}.jpg`}
+                    src={`../07-hero-app/assets/heroes/${heroeId}.jpg`}
                     alt={superhero}
                     className="img-thumbnail"
                 />
